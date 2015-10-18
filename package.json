@@ -1,0 +1,24 @@
+{
+  "name": "forever",
+  "version": "0.0.0",
+  "description": "Forever is a no-nonsense LaTeX editor with live preview that runs on your computer and can make PDFs.",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergren2/forever.git"
+  },
+  "author": "Dan Bergren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergren2/forever/issues"
+  },
+  "homepage": "https://github.com/bergren2/forever#readme",
+  "private": true
+}
