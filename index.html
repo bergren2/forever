@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Forever">
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Forever</title>
+
+    <link rel="stylesheet" href="css/forever.css">
+    <link rel="stylesheet" href="katex/katex.min.css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+
+    <script src="katex/katex.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="js/editor.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <script>document.write(process.version)</script>
-    and Electron <script>document.write(process.versions['electron'])</script>.
+    <h1 class="md-display-3">Forever</h1>
+    <div ng-controller="InputCtrl">
+      <textarea id="input" autofocus
+        ng-model="editor.input" ng-model-options="{ getterSetter: true }"></textarea>
+      <div id="output" ng-bind="editor.input()"></div>
+    </div>
+
   </body>
 </html>

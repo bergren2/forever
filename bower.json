@@ -1,0 +1,16 @@
+{
+  "name": "forever",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bergren2/forever",
+  "authors": [
+    "Dan Bergren <basstheorychaos@gmail.com>"
+  ],
+  "description": "Forever is a no-nonsense LaTeX editor with live preview that runs on your computer and can make PDFs.",
+  "main": "main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-material": "~0.11.4"
+  }
+}
