@@ -8,8 +8,8 @@ Forever is a no-nonsense LaTeX editor with live preview that runs on your comput
 
 ## Installation
 
-    $ git clone git@github.com:bergren2/forever.git
-    $ cd $_
+After cloning, do
+
     $ npm install electron-prebuilt -g
     $ npm install
 
